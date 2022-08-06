@@ -2,9 +2,9 @@ from setuptools import setup
 
 setup(
     name='PyTranslator',
-    version='0.1.13',    
+    version='0.1.14',    
     description='Simple translator for python',
-    url='https://github.com/jeremhii/translator',
+    url='https://github.com/jeremhii/pytranslator',
     author='JeremHi',
     license='MIT',
     packages=['translator'],
