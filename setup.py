@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='translator',
-    version='0.1.11',    
+    version='0.1.12',    
     description='Simple translator for python',
     url='https://github.com/jeremhii/translator',
     author='JeremHi',

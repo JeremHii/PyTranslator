@@ -26,7 +26,7 @@ class Translator:
         return result
 
     def auto_translate(self, id: str, placeholders: dict = {}) -> str:
-        return self.translate(locale.windows_locale[self.windll.GetUserDefaultUILanguage()], id, placeholders)
+        return self.translate(self.get_locale(), id, placeholders)
 
     def read_yaml(self, lang: str, id: str):
         try:
@@ -37,3 +37,6 @@ class Translator:
                 return translations
         except Exception as e:
             return None
+
+    def get_locale(self):
+        return locale.windows_locale[self.windll.GetUserDefaultUILanguage()]
