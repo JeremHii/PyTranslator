@@ -13,7 +13,7 @@ pip install git+https://github.com/JeremHii/PyTranslator
 ## Example
 
 - First you have to create a `translations` folder.
-- In this folder you need to create YAML files depending on the languages you will use. For example, if you want to be able to translate your content in french and in english you will to create two files: `fr_FR.yaml` and `en_EN.yaml` inside the `translations` folder. <br />
+- In this folder you need to create YAML files depending on the languages you will use. For example, if you want to be able to translate your content in french and in english you will have to create two files: `fr_FR.yaml` and `en_EN.yaml` inside the `translations` folder. <br />
 
 #### `translations/fr_FR.yaml` file
 ```yaml
