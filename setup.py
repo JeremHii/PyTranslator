@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(
-    name='translator',
-    version='0.1.12',    
+    name='PyTranslator',
+    version='0.1.13',    
     description='Simple translator for python',
     url='https://github.com/jeremhii/translator',
     author='JeremHi',
